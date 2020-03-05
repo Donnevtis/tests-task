@@ -67,14 +67,13 @@ describe('Entering data with JS', () => {
               .next()
               .find('label')
               .click()
-            return
+          } else if (sheetValue !== 'N') {
+            cy.contains('label', key)
+              .parent()
+              .find('input')
+              .focus()
+              .type(`${sheetValue}{enter}`)
           }
-
-          cy.contains('label', key)
-            .parent()
-            .find('input')
-            .focus()
-            .type(`${sheetValue}{enter}`)
         }
         cy.get('form').submit()
         cy.wait(3000)
