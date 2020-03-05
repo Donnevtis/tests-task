@@ -1,0 +1,16 @@
+{
+  "name": "cypress_task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.1.0",
+    "prettier": "^1.19.1",
+    "xlsx": "^0.15.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 80,
+    "semi": false
+  }
+}
