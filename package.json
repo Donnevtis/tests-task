@@ -6,7 +6,7 @@
   "devDependencies": {
     "cypress": "^4.1.0",
     "prettier": "^1.19.1",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.17.0"
   },
   "prettier": {
     "singleQuote": true,
